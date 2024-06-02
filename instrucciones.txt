@@ -1,0 +1,12 @@
+npm install -g expo-cli
+
+expo init ParcialApp
+
+cd ParcialApp
+
+npm install react-navigation react-navigation-stack react-native-popup-menu react-native-vector-icons
+
+npm install -g eas-cli
+eas login
+eas build:configure
+eas build -p android
